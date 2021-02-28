@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TCS-Equifax-Assessment">
+	<test name="Add to cart test">
+		<classes>
+			<class name="com.amazon.tests.ProductPriceTest">
+				<methods>
+					<include name="pageTitleVerify" />
+					<include name="productPriceTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+		
